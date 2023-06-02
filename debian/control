@@ -1,0 +1,11 @@
+Source: libkeepalive
+Maintainer: Dax <LOCAL>
+Section: misc
+Priority: optional
+Standards-Version: 1.8.4
+Build-Depends: debhelper (>= 12)
+
+Package: libkeepalive
+Architecture: armhf
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: CPU and display keepalive and scheduling library
